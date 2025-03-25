@@ -3,7 +3,7 @@ name: Docker Build and Push
 on:
   push:
     branches: [ "main" ]  # 当推送到main分支时触发
-  workflow_dispatch: # 添加这一行
+  workflow_dispatch: # 添加这一行1
   pull_request:
     branches: [ "main" ]  # 当对main分支发起PR时触发
 
